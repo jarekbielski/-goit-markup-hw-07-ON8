@@ -4,8 +4,6 @@
     align-items: center;
 }
 
-
-
 .accent-footer {
     color: var(--main-color);
 }
@@ -58,57 +56,6 @@
 
 }
 
-.footer-social-media-list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 20px;
-}
-
-.footer-social-media-link {
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    fill: #ffffff;
-    width: 44px;
-    height: 44px;
-    text-decoration: none;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-social-media-item {
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-
-}
-
-.footer-social-media-item:not(:last-child) {
-    margin-right: 10px;
-}
-
-.footer-social-media-link:hover,
-.footer-social-media-link:focus,
-.footer-social-icon:hover,
-.footer-social-icon:focus {
-    fill: #ffffff;
-    background-color: var(--main-color);
-    cursor: pointer;
-}
-
-.footer-social-icon {
-    display: flex;
-    width: 20px;
-    height: 20px;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 
 .label-sign-up {
     width: 207px;
@@ -148,11 +95,23 @@
     letter-spacing: 0.03em;
     box-sizing: border-box;
     outline: none;
-}
 
-.input-newsletter:focus {
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    outline: none;
+    &:placeholder {
+        position: absolute;
+        font-family: var(--main-font);
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        left: 16px;
+        top: 15px;
+    }
+
+    &:focus {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        outline: none;
+    }
 }
 
 .button-newsletter {

@@ -23,16 +23,15 @@
     color: #212121
 }
 
-.header__navigation-list-item:not(:last-child),
-.header__portfolio-navigation-item:not(:last-child) {
-    margin-right: 46px;
-
-}
 
 .header__navigation-list-item,
 .header__portfolio-navigation-item {
     padding-top: 32px;
     padding-bottom: 32px;
+    &:not(:last-child),
+    &:not(:last-child) {
+    margin-right: 46px;
+    }
 }
 
 
@@ -44,25 +43,13 @@
     letter-spacing: 0.02em;
     color: #212121;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header__navigation-list-link:hover,
-.header__navigation-list-link:focus,
-.header__portfolio-navigation-link:hover,
-.header__portfolio-navigation-link:focus,
-.header__adress-link:hover,
-.header__adress-link:focus,
-.header__adress-phone-number-link:hover,
-.header__adress-phone-number-link:focus,
-.adress-email-footer:focus,
-.adress-email-footer:hover,
-.adress-phone-number-footer:hover,
-.adress-phone-number-footer:focus .icon-email-icon:hover,
-.icon-email-icon:focus,
-.icon-mobile-icon:hover,
-.icon-mobile-icon:focus {
+    &:hover,
+    &:focus,
+    &:hover,
+    &:focus {
     color: var(--main-color);
     fill: var(--main-color)
+    }
 }
 
 
@@ -78,6 +65,17 @@
     letter-spacing: 0.02em;
     margin-right: auto;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus,
+        &:hover,
+        &:focus,
+        &:focus,
+        &:hover,
+        &:hover,
+        &:focus {
+            color: var(--main-color);
+            fill: var(--main-color)
+        }
 }
 
 .header__adress-link {
@@ -89,43 +87,4 @@
 }
 
 
-.icon-email-icon,
-.icon-mobile-icon {
-    margin-right: 10px;
-}
 
-
-
-/* ---END-HEADER--- */
-
-/* ---HERO--- */
-.hero__center {
-    height: 600px;
-    max-width: 1600px;
-    margin: 0 auto;
-    background-repeat: no-repeat;
-    background: #2F303A;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)), url("../Images/background/Img-bacground.jpg");
-}
-
-
-
-
-.hero__header-tittle {
-    font-family: var(--main-font);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.363;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 30px;
-    padding-left: auto;
-    padding-right: auto;
-    margin: auto;
-    width: 696px;
-
-}

@@ -1,0 +1,84 @@
+.hero-icon {
+    align-items: center;
+}
+
+.footer-social-icon {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        fill: #ffffff;
+        background-color: var(--main-color);
+        cursor: pointer;
+    }
+}
+
+.footer-social-media-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.footer-social-media-link {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    fill: #ffffff;
+    width: 44px;
+    height: 44px;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        fill: #ffffff;
+        background-color: var(--main-color);
+        cursor: pointer
+    }
+}
+
+.footer-social-media-item {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+
+}
+
+.icon-email-icon,
+.icon-mobile-icon {
+    margin-right: 10px;
+
+    &:focus,
+    &:hover,
+    &:hover,
+    &:focus {
+        color: var(--main-color);
+        fill: var(--main-color)
+    }
+}
+
+.team__social-icon {
+    display: flex;
+    width: 20px;
+    height: 20px;
+
+    &:hover,
+    &:focus {
+        fill: #ffffff;
+        background-color: var(--main-color);
+    }
+}
