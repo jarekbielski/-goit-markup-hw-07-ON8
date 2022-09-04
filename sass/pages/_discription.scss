@@ -1,0 +1,81 @@
+.discription .container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 94px;
+}
+
+.discription__list,
+.what-we-do {
+    display: flex;
+    align-items: center;
+}
+
+.discription__title {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    padding-bottom: 10px;
+}
+
+.discription__text,
+.what-we-do__portfolio-discription {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-decoration: none;
+}
+
+.dispription__list__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.dispription__list__item {
+    width: 270px;
+
+}
+
+.hero-list {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.what-we-do__portfolio-discription-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.what-we-do__portfolio-discription {
+    font-size: 16px;
+    line-height: 1.875;
+
+}
+
+.what-we-do__portfolio-discription-title,
+.what-we-do__portfolio-discription {
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+
+.what-we-do__portfolio-discription {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.hero-icon {
+    align-items: center;
+}

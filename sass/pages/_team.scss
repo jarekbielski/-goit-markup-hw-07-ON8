@@ -1,0 +1,95 @@
+.team {
+    background: #F5F4FA;
+}
+
+.main-header {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.team__list {
+    display: flex;
+    align-items: center;
+}
+
+.team__list__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    line-height: 19px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.team__list__job {
+    font-weight: 400;
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+}
+
+.team__list__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.team__list__item {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team__social-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 206px;
+    padding-top: 16px;
+    margin-left: 32px;
+}
+
+.team__social-list-item {
+    border-radius: 50%;
+
+}
+
+.team__social-list-link {
+    display: flex;
+    Width: 44px;
+    Height: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    fill: #AFB1B8;
+    transition-property: fill, border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team__social-icon {
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+.team__social-list-link:hover,
+.team__social-list-link:focus,
+.team__social-icon:hover,
+.team__social-icon:focus {
+    fill: #ffffff;
+    background-color: var(--main-color);
+}
