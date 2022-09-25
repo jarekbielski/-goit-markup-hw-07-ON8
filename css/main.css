@@ -737,7 +737,7 @@ img {
   background-color: #2f303a;
   display: flex;
   align-items: center;
-  max-width: 1600px;
+  justify-content: center;
 }
 
 .accent-footer {
